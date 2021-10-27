@@ -1,0 +1,63 @@
+/*
+Jobs screen styles
+*/
+.container-matches{
+  background-color: #f8f9fa;
+}
+.card-matches{
+  margin: 15px;
+}
+
+.job-banner{
+  height: 220px;
+  object-fit: cover;
+}
+
+.container-rates{
+  background-color: #4cd964;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.value-rates{
+  font-size: 30px;
+  color: white;
+}
+
+.container-cell{
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgb(189, 187, 187);
+}
+.icon{
+  height: 20px;
+}
+.cell-inner{ 
+  display: 'flex';
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer{
+  display: flex;
+  justify-content:center;
+}
+.button{
+  width: 45%;
+  margin-right: 10px;
+}
+
+.login {
+  margin: 60px auto;
+  max-width: 450px;
+}
+
+.loader-contaner{
+  height: 210px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
